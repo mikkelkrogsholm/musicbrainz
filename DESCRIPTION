@@ -1,0 +1,25 @@
+Package: musicbrainz
+Type: Package
+Title: Connects to MusicBrainz API
+Version: 0.1.0
+Author: Mikkel Freltoft Krogsholm
+Maintainer: The package maintainer <mikkel@56n.dk>
+Description: MusicBrainz is an open music encyclopedia that collects music 
+    metadata and makes it available to the public. MusicBrainz aims to be: 
+    1) The ultimate source of music information by allowing anyone to contribute 
+    and releasing the data under open licenses. 
+    2) The universal lingua franca for music by providing a reliable and unambiguous 
+    form of music identification, enabling both people and machines to have 
+    meaningful conversations about music. Visit <https://musicbrainz.org> for 
+    further information.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+    httr,
+    base, 
+    utils
+URL: https://github.com/mikkelkrogsholm/musicbrainz
+BugReports: https://github.com/mikkelkrogsholm/musicbrainz/issues
+    
