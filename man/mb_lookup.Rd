@@ -3,9 +3,6 @@
 \name{mb_lookup}
 \alias{mb_lookup}
 \title{Lookup requests on MusicBrainz}
-\source{
-\href{https://musicbrainz.org/doc/Development/JSON_Web_Service}{MusicBrainz JSON Web Service}
-}
 \usage{
 mb_lookup(resource, id)
 }
@@ -23,7 +20,7 @@ mb_lookup(resource, id)
 \item{id}{the musicbrainz id}
 }
 \value{
-a list
+a list with data from the API
 }
 \description{
 Lookup requests on MusicBrainz
@@ -52,4 +49,7 @@ work_data <- mb_lookup("work", "b1df2cf3-69a9-3bc0-be44-f71e79b27a22")
 
 }
 
+}
+\seealso{
+\href{https://musicbrainz.org/doc/Development/JSON_Web_Service}{MusicBrainz JSON Web Service}
 }

@@ -3,9 +3,6 @@
 \name{mb_search}
 \alias{mb_search}
 \title{Search MusicBrainz}
-\source{
-\href{https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search}{MusicBrainz Search}
-}
 \usage{
 mb_search(type, query, limit = NULL, offset = NULL)
 }
@@ -26,7 +23,7 @@ this defaults to 25.}
 through more than one page of results.}
 }
 \value{
-a list
+a list with data from the API
 }
 \description{
 Search MusicBrainz
@@ -66,4 +63,7 @@ release_data <- mb_search("release", "release:Schneider AND Shake")
 work_data <- mb_search("work", "work:Frozen AND arid:4c006444-ccbf-425e-b3e7-03a98bab5997")
 
 }
+}
+\seealso{
+\href{https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search}{MusicBrainz Search}
 }

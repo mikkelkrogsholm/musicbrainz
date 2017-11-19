@@ -11,9 +11,9 @@
 #'     }
 #' @param id the musicbrainz id
 #'
-#' @return a list
+#' @return a list with data from the API
 #'
-#' @source \href{https://musicbrainz.org/doc/Development/JSON_Web_Service}{MusicBrainz JSON Web Service}
+#' @seealso \href{https://musicbrainz.org/doc/Development/JSON_Web_Service}{MusicBrainz JSON Web Service}
 #'
 #' @export
 #'

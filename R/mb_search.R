@@ -12,10 +12,10 @@
 #' @param offset Return search results starting at a given offset. Used for paging
 #'     through more than one page of results.
 #'
-#' @return a list
+#' @return a list with data from the API
 #' @export
 #'
-#' @source \href{https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search}{MusicBrainz Search}
+#' @seealso \href{https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search}{MusicBrainz Search}
 #'
 #' @examples
 #'
