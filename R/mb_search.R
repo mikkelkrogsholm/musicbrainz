@@ -12,12 +12,14 @@
 #' @param offset Return search results starting at a given offset. Used for paging
 #'     through more than one page of results.
 #'
-#' @return
+#' @return a list
 #' @export
 #'
 #' @source \href{https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search}{MusicBrainz Search}
 #'
 #' @examples
+#'
+#' \dontrun{
 #'
 #' # Annotation
 #' annotation_data <- mb_search("annotation", "entity:bdb24cb5-404b-4f60-bba4-7b730325ae47")
@@ -48,6 +50,8 @@
 #'
 #' # Work
 #' work_data <- mb_search("work", "work:Frozen AND arid:4c006444-ccbf-425e-b3e7-03a98bab5997")
+#'
+#' }
 
 mb_search <- function(type, query, limit = NULL, offset = NULL){
 

@@ -25,10 +25,15 @@ this defaults to 25.}
 \item{offset}{Return search results starting at a given offset. Used for paging
 through more than one page of results.}
 }
+\value{
+a list
+}
 \description{
 Search MusicBrainz
 }
 \examples{
+
+\dontrun{
 
 # Annotation
 annotation_data <- mb_search("annotation", "entity:bdb24cb5-404b-4f60-bba4-7b730325ae47")
@@ -59,4 +64,6 @@ release_data <- mb_search("release", "release:Schneider AND Shake")
 
 # Work
 work_data <- mb_search("work", "work:Frozen AND arid:4c006444-ccbf-425e-b3e7-03a98bab5997")
+
+}
 }

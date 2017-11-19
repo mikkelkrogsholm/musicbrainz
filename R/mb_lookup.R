@@ -18,6 +18,9 @@
 #' @export
 #'
 #' @examples
+#'
+#' \dontrun{
+#'
 #' # Artist lookup
 #' artist_data <- mb_lookup("artist", "5b11f4ce-a62d-471e-81fc-a69a8278c7da")
 #'
@@ -36,6 +39,7 @@
 #' # Release lookup
 #' work_data <- mb_lookup("work", "b1df2cf3-69a9-3bc0-be44-f71e79b27a22")
 #'
+#' }
 #'
 mb_lookup <- function(resource, id){
 

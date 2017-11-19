@@ -29,6 +29,9 @@ a list
 Lookup requests on MusicBrainz
 }
 \examples{
+
+\dontrun{
+
 # Artist lookup
 artist_data <- mb_lookup("artist", "5b11f4ce-a62d-471e-81fc-a69a8278c7da")
 
@@ -47,5 +50,6 @@ release_group_data <- mb_lookup("release-group", "c9fdb94c-4975-4ed6-a96f-ef6d80
 # Release lookup
 work_data <- mb_lookup("work", "b1df2cf3-69a9-3bc0-be44-f71e79b27a22")
 
+}
 
 }
